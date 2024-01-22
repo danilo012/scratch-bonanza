@@ -160,10 +160,10 @@ const ScratchArea = React.forwardRef<ScratchCard, IScratchAreaProps>(
       } else if (value === 0.00004) {
         successSound.currentTime = 0;
         successSound.play();
-      } else if (value === 0.0001) {
+      } else if (value === 0.00010) {
         coinSound.currentTime = 0;
         coinSound.play();
-      } else if (value === 100 || value === 1) {
+      } else if (value === 0.00200 || value === 1) {
         bestSound.currentTime = 0;
         bestSound.play();
       }
