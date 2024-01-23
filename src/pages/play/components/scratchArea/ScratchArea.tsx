@@ -27,7 +27,7 @@ const bananaSound = new Audio("./sounds/banana.mp3");
 bananaSound.volume = 0.3;
 
 interface IScratchAreaProps {
-  value: 0 | 0.00004 | 0.00010 | 0.00200 | 0.25;
+  value: 0 | 0.00004 | 1 | 0.00200 | 0.25;
 }
 
 const ScratchArea = React.forwardRef<ScratchCard, IScratchAreaProps>(
