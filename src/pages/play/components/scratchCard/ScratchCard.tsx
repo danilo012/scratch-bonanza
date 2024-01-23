@@ -8,7 +8,7 @@ import ScratchArea from "../scratchArea/ScratchArea";
 import ScratchCard from "react-scratchcard-v2";
 
 interface IScratchCardProps {
-  card: (0 | 0.00004 | 0.00010 | 0.00200 | 1)[];
+  card: (0 | 0.00004 | 0.00010 | 0.00200 | 0.25)[];
 }
 
 const Card = forwardRef(({ card }: IScratchCardProps, ref) => {
