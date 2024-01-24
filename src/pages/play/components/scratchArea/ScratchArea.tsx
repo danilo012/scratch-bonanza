@@ -27,7 +27,7 @@ const bananaSound = new Audio("./sounds/banana.mp3");
 bananaSound.volume = 0.3;
 
 interface IScratchAreaProps {
-  value: 0 | 0.00004 | 1 | 0.00200 | 0.25;
+  value: 0 | 0.00004 | 0.00200 | 0.00200 | 0.25;
 }
 
 const ScratchArea = React.forwardRef<ScratchCard, IScratchAreaProps>(
@@ -160,7 +160,7 @@ const ScratchArea = React.forwardRef<ScratchCard, IScratchAreaProps>(
       } else if (value === 0.00004) {
         successSound.currentTime = 0;
         successSound.play();
-      } else if (value === 1) {
+      } else if (value === 0.00200) {
         coinSound.currentTime = 0;
         coinSound.play();
       } else if (value === 0.00200 || value === 0.25) {
