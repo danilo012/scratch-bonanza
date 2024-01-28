@@ -35,16 +35,16 @@
 }
 
 .modal-button {
-  letter-spacing: 0.05em;
+  letter-spacing: 0em;
   text-align: left;
-  font-size: min(4vw, 20px);
+  font-size: min(0vw, 0px);
   background: #000;
   color: #fff;
   text-align: center;
   width: 0%;
   margin: auto;
-  padding: min(4vw, 20px);
-  border-radius: 10px;
+  padding: min(0vw, 0px);
+  border-radius: 0px;
 }
 
 .modal-button:active {
