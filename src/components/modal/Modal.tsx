@@ -4,7 +4,6 @@
 
 import "./style.css";
 import useGame from "../../stores/useGame";
-import { clearLocalStorage } from "../../stores/utils";
 
 
 
