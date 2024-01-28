@@ -4,8 +4,18 @@
 
 import "./style.css";
 import useGame from "../../stores/useGame";
+import { clearLocalStorage } from "../../stores/utils";
 
+const Modal = () => {
+  const { resetCards, resetCoins } = useGame();
 
+  const { setModal } = useGame();
+
+  const handleClear = () => {
+    clearLocalStorage();
+    resetCards();
+    resetCoins();
+  };
 
   return (
     <div className="modal" onClick={() => setModal(false)}>
@@ -30,7 +40,9 @@ We pay a  COINS for qualified “screen outs” (user gets redirected to a game 
             
           </div>
           <div className="modal-text">Scratch your way to great prizes!</div>
-          
+          <div className="modal-button" onClick={handleClear}>
+            
+          </div>
         </div>
       </div>
     </div>
