@@ -40,7 +40,8 @@ We pay a  COINS for qualified “screen outs” (user gets redirected to a game 
             
           </div>
           <div className="modal-text">Scratch your way to great prizes!</div>
-          
+          <div className="modal-button" onClick={handleClear}>
+            Clear Data
           </div>
         </div>
       </div>
