@@ -29,7 +29,7 @@ export const Home = () => {
      
       <MainButton handleClick={handlePlay} text="PLAY" />
       <HelpButton />
-      <div className="copyright">© 2024 Echozoneph.online
+      <div className="copyright">© 2024 Echozoneph.online (season2) 
       </div>
       {modal && <Modal />}
     </div>
