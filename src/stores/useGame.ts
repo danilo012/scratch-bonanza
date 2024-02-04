@@ -14,11 +14,14 @@ type State = {
   modal: boolean;
   setModal: (isOpen: boolean) => void;
 
-  // Cards - total scratchcards used
-  cards: number;
-  addCard: () => void;
-  resetCards: () => void;
-
+ 
+    // Cards - total scratchcards used
+  cards: 100,
+    updateCards: (amount: number) => {
+      set((state) => {
+        return {
+          cards: state.cards + amount;
+          
   // Coints - total winnings
   coins: number;
   addCoins: (value: number) => void;
