@@ -15,12 +15,10 @@ type State = {
   setModal: (isOpen: boolean) => void;
 
  
-    // Cards - total scratchcards used
-  cards: 100,
-    updateCards: (amount: number) => {
-      set((state) => {
-        return {
-          cards: state.cards + amount;
+      // Cards - total scratchcards used
+  cards: number;
+  addCard: () => void;
+  resetCards: () => void;
           
   // Coints - total winnings
   coins: number;
@@ -68,8 +66,8 @@ const store = create<State>()(
      */
     cards: Number(getLocalStorage("cards")) || 0,
     addCard: () => {
-      setLocalStorage("cards", Number(getLocalStorage("cards")) + 1);
-      set((state) => ({ cards: state.cards + 1 }));
+      setLocalStorage("cards", Number(getLocalStorage("cards")) + 5);
+      set((state) => ({ cards: state.cards + 5 }));
     },
     resetCards: () => {
       set((state) => {
