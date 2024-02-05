@@ -66,8 +66,8 @@ const store = create<State>()(
      */
     cards: Number(getLocalStorage("cards")) || 0,
     addCard: () => {
-      setLocalStorage("cards", Number(getLocalStorage("cards")) + 1);
-      set((state) => ({ cards: state.cards + 1 }));
+      setLocalStorage("cards", Number(getLocalStorage("cards")) + 5);
+      set((state) => ({ cards: state.cards + 5 }));
     },
     resetCards: () => {
       set((state) => {
