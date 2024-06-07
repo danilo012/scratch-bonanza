@@ -35,8 +35,8 @@ const Modal = () => {
             mouse around.
           </div>
           <div className="modal-text">
-            Currency Factor for SCRATCH TO EARN. 
-We pay a  COINS for qualified “screen outs” (user gets redirected to a game , starts it but does not qualify to some reason) and game ratings (user gives his rating after a successful game complete). To know which reward we have to display the user in USD currency. the value based on the ration of 1 USD. Example: If user earned Coins and 1000 Coins have a value of 1 USD on our game settings , default settings would set the bonus factor to 1 USD = 1000 (Coins), so that the user gets 10 Coins for a 0.01 USD.
+            Currency Factor for SCRATCH & WIN- STARPOINTS. 
+We pay a  STARPOINTS for qualified “screen outs” (user gets redirected to a game , starts it but does not qualify to some reason) and game ratings (user gives his rating after a successful game complete). To know which reward we have to display the user in STARPOINTS electronic currency. the value based on the ration of PHP from ECHOZONE FREE GAMES CALCULATOR. Example: If user earned STARPOINTS and 1000 STARPOINTS have a value of 1php on our game settings (dont expect this result, because it is a example only not a exact format) default settings would set the echozone free games calculator. so that the user gets exact money base from ECHOZONE FREE GAMES CALCULATOR 
             
           </div>
           <div className="modal-text">Scratch your way to great prizes!</div>
