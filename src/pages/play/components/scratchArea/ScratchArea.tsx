@@ -179,7 +179,7 @@ const ScratchArea = React.forwardRef<ScratchCard, IScratchAreaProps>(
           finishPercent={10}
           onComplete={handleComplete}
           brushSize={200}
-          fadeOutOnComplete={false}
+          fadeOutOnComplete={true}
         >
           <div className="scratcharea">
             <img className="revealed-icon" alt="revealed icon" src={iconSrc} />
