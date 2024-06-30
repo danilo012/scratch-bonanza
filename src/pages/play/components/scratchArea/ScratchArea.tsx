@@ -173,8 +173,8 @@ const ScratchArea = React.forwardRef<ScratchCard, IScratchAreaProps>(
       <div className="scratcharea-container" {...eventHandlers}>
         <ScratchCard
           ref={ref}
-          width={120}
-          height={150}
+          width={150}
+          height={120}
           image="./assets/scratch_card.png"
           finishPercent={10}
           onComplete={handleComplete}
