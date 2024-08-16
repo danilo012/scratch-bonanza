@@ -55,6 +55,6 @@
 }
 
 .button-main:focus {
-  color: orange;
+  color: white;
   text-shadow: 0 0 0.2em rgba(126, 126, 126, 0.47);
 }
